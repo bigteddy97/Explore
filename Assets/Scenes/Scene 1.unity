@@ -631,7 +631,7 @@ AudioSource:
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 100000, guid: b6f045bd090bda346b3ca3295e3a57e5, type: 2}
-  m_PrefabInternal: {fileID: 1957770489}
+  m_PrefabInternal: {fileID: 1989555939}
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1400362584}
@@ -648,7 +648,7 @@ Light:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 10800000, guid: b6f045bd090bda346b3ca3295e3a57e5,
     type: 2}
-  m_PrefabInternal: {fileID: 1957770489}
+  m_PrefabInternal: {fileID: 1989555939}
   m_GameObject: {fileID: 1400362582}
   m_Enabled: 1
   serializedVersion: 3
@@ -659,7 +659,7 @@ Light:
   m_SpotAngle: 30
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 2
+    m_Type: 1
     m_Resolution: -1
     m_Strength: 1
     m_Bias: .0500000007
@@ -683,7 +683,7 @@ Light:
 Transform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 400000, guid: b6f045bd090bda346b3ca3295e3a57e5, type: 2}
-  m_PrefabInternal: {fileID: 1957770489}
+  m_PrefabInternal: {fileID: 1989555939}
   m_GameObject: {fileID: 1400362582}
   m_LocalRotation: {x: .408217937, y: -.234569728, z: .109381661, w: .875426114}
   m_LocalPosition: {x: 0, y: 500, z: 0}
@@ -929,7 +929,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 97b06d8ded749d743b0d74e5e97a390e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1001 &1957770489
+--- !u!1001 &1989555939
 Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2

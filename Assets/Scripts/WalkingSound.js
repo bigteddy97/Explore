@@ -31,7 +31,6 @@ function Start () {
 
 function GetRandomSoundWithTerrainIndex(terrainIndex : int) {
 	var selectedArray : AudioClip[] = walkSoundsStone;
-	Debug.Log(terrainIndex);
 	
 	switch(terrainIndex) {
 		case 0: selectedArray = walkSoundsGrass; break;

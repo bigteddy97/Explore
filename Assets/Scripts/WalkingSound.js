@@ -1,7 +1,5 @@
 ﻿#pragma strict
 
-import System.Collections.Generic;
-
 var walkSoundsGrass : AudioClip[];
 var walkSoundsDirt : AudioClip[];
 var walkSoundsStone : AudioClip[];

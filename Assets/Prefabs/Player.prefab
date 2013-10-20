@@ -34,6 +34,7 @@ GameObject:
   - 114: {fileID: 11400004}
   - 114: {fileID: 11400002}
   - 114: {fileID: 11400010}
+  - 82: {fileID: 8200000}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -153,6 +154,64 @@ AudioListener:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100000}
   m_Enabled: 1
+--- !u!82 &8200000
+AudioSource:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100002}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
 --- !u!92 &9200000
 Behaviour:
   m_ObjectHideFlags: 1
@@ -287,8 +346,27 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bcdbe44b96e285e4db3afcaf55eb9280, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  walkSounds: []
-  audioStepLength: 3
+  walkSoundsGrass:
+  - {fileID: 8300000, guid: 9d1375a1c5fc53c47be3701ff97efbef, type: 3}
+  - {fileID: 8300000, guid: b05083010770efe4b9b5a1e640235f89, type: 3}
+  - {fileID: 8300000, guid: 196e92dbbe8ffba40a562d0549245826, type: 3}
+  - {fileID: 8300000, guid: ce0d4eed955abd14bb9b526dbdb5fc07, type: 3}
+  walkSoundsDirt: []
+  walkSoundsStone:
+  - {fileID: 8300000, guid: 0b3de86a839cc324c8321d16808c32a5, type: 3}
+  - {fileID: 8300000, guid: bef3f64c0861262428e648fa592c59d0, type: 3}
+  - {fileID: 8300000, guid: 023178ab1f1df2c45a13a8eaa0d656e8, type: 3}
+  - {fileID: 8300000, guid: 884585b4502d3cb4885eb2f0982cbe15, type: 3}
+  - {fileID: 8300000, guid: 23553e11e18b5724faf9bdba61169a46, type: 3}
+  walkSoundsSand:
+  - {fileID: 8300000, guid: 81b0578e4ad4072478224c15e01fa3c6, type: 3}
+  - {fileID: 8300000, guid: 94f22869f6ef7c6438ffeb4f2e9e1414, type: 3}
+  - {fileID: 8300000, guid: 00c1d4ad084643241b048c9e30083a16, type: 3}
+  - {fileID: 8300000, guid: c07a01370ef21d448a80704993d014b5, type: 3}
+  - {fileID: 8300000, guid: a4936a2c8149a8a41b0fbd4f72f86d48, type: 3}
+  - {fileID: 8300000, guid: ec5f25e7c9be29b4abe10afe69faf3af, type: 3}
+  - {fileID: 8300000, guid: 483e5c70e9fbdc04ea88048e806bac2c, type: 3}
+  audioStepLength: .449999988
 --- !u!124 &12400000
 Behaviour:
   m_ObjectHideFlags: 1

@@ -15,11 +15,12 @@ function Start () {
         if (controller.isGrounded && controller.velocity.magnitude > 0.3) {
             
             var terrainIndex = TerrainSurface.GetMainTexture(controller.transform.position);
-            Debug.Log(terrainIndex);
+
             audio.clip = GetRandomSoundWithTerrainIndex(terrainIndex);
 			audio.pitch = Random.Range(0.8f, 1.5f);
             
             audio.Play();
+            
             yield WaitForSeconds(audioStepLength);
         }
         else {
@@ -31,7 +32,8 @@ function Start () {
 }
 
 function GetRandomSoundWithTerrainIndex(terrainIndex : int) {
-	var selectedArray : AudioClip[] = walkSoundsGrass;
+	var selectedArray : AudioClip[] = walkSoundsStone;
+	Debug.Log(terrainIndex);
 	
 	switch(terrainIndex) {
 		case 0: selectedArray = walkSoundsGrass; break;
@@ -39,9 +41,9 @@ function GetRandomSoundWithTerrainIndex(terrainIndex : int) {
 		case 2: selectedArray = walkSoundsStone; break;
 		case 3: selectedArray = walkSoundsSand; break;
 	}
-	
+		
 	if(selectedArray.Length > 0)
-		return walkSoundsGrass[Random.Range(0, walkSoundsGrass[terrainIndex].length)];
+		return selectedArray[Random.Range(0, selectedArray[terrainIndex].length)];
 	
 	return null;
 }

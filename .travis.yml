@@ -7,5 +7,7 @@ env:
   - secure: YA+YXK89tPbLza3Cx2R84QtR423SU5JVUTF46Nfy85C8dbJYNqLyln2XfN+80wzrAysntZt0C0KGcdbY6+AWkjRAZD8kKRL+EWBgrOnWWPzSo+04wk3sQlCmiCPQStRvTk4hK106uHNue+MVP1O/pSEa8XJI04/rmOqHOhCoM9Q=
   
 install: true
-script: ./BuildServer/install_unity.sh
+script: 
+    - ./BuildServer/download_unity.sh
+    - ./BuildServer/install_unity.sh Unity.dmg
 after_success: ./BuildeServer/upload_built_files.sh

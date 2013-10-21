@@ -1,0 +1,11 @@
+language: objective-c
+
+env:
+  global:
+  - secure: MGqCPjmJ4NMbNs/mT5/73MvC+MClnscQrv95LbfxLyUl9hAWDcL1IUjMvCMsRxEnVTqyXLCQ5R1YPVJp2W3P7JYVBT0pXuCiEltnRsKzWl1+JMw3h4VIbbjajTzoGCpEzp52nO6pXEK9/6KQzd3Rwm69vYUR4xT+fqFPdZqzil4=
+  - secure: EITfO4kNQPNWaRGQKbUWrIuwWAw+NIjrZDlxl1Ppeb+Gl+RFjUak/9NmyfhmE37NCOIFfxn4w7vQtk1e5OACyj8fOk/9QTVgyjtjEXnj7POOgCs4szyrJ+Q+jQSN22cSVtZmXjaUxRptYKAXxAH+jxGsZSzBOPh1BubEm4myw3g=
+  - secure: YA+YXK89tPbLza3Cx2R84QtR423SU5JVUTF46Nfy85C8dbJYNqLyln2XfN+80wzrAysntZt0C0KGcdbY6+AWkjRAZD8kKRL+EWBgrOnWWPzSo+04wk3sQlCmiCPQStRvTk4hK106uHNue+MVP1O/pSEa8XJI04/rmOqHOhCoM9Q=
+  
+install: true
+script: ./BuildServer/install_unity.sh
+after_success: ./BuildeServer/upload_built_files.sh

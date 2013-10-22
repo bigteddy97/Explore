@@ -2292,10 +2292,10 @@ Transform:
   m_LocalPosition: {x: 601.542969, y: 52.39254, z: 753.452637}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 1172251690}
+  - {fileID: 1352586072}
   - {fileID: 843993600}
   - {fileID: 1537319918}
-  - {fileID: 1352586072}
+  - {fileID: 1172251690}
   - {fileID: 2119546235}
   - {fileID: 1830463364}
   - {fileID: 84819859}
@@ -13833,6 +13833,7 @@ GameObject:
   - 33: {fileID: 1635868780}
   - 64: {fileID: 1635868779}
   - 23: {fileID: 1635868778}
+  - 114: {fileID: 1635868782}
   m_Layer: 0
   m_Name: Water
   m_TagString: Untagged
@@ -13892,6 +13893,20 @@ Transform:
   m_LocalScale: {x: 500, y: 1, z: 500}
   m_Children: []
   m_Father: {fileID: 0}
+--- !u!114 &1635868782
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1635868777}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b14d4551c8a890d4684bbd5565f48bf9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  materialIndex: 0
+  uvAnimationRate: {x: 1, y: 1}
+  textureName: _MainTex
 --- !u!1 &1641346995
 GameObject:
   m_ObjectHideFlags: 0

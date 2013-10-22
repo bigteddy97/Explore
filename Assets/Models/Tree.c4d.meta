@@ -10,6 +10,7 @@ ModelImporter:
     100008: Kugel_4
     100010: //RootNode
     100012: W__rfel
+    100014: Kugel_5
     400000: Kugel
     400002: Kugel_1
     400004: Kugel_2
@@ -17,24 +18,31 @@ ModelImporter:
     400008: Kugel_4
     400010: //RootNode
     400012: W__rfel
+    400014: Kugel_5
     2300000: Kugel
     2300002: Kugel_1
     2300004: Kugel_2
     2300006: Kugel_3
     2300008: Kugel_4
     2300010: W__rfel
+    2300012: //RootNode
+    2300014: Kugel_5
     3300000: Kugel
     3300002: Kugel_1
     3300004: Kugel_2
     3300006: Kugel_3
     3300008: Kugel_4
     3300010: W__rfel
+    3300012: //RootNode
+    3300014: Kugel_5
     4300000: Kugel_4
     4300002: Kugel_3
     4300004: Kugel_2
     4300006: Kugel_1
     4300008: W__rfel
     4300010: Kugel
+    4300012: Tree
+    4300014: Kugel_5
     9500000: //RootNode
   materials:
     importMaterials: 1

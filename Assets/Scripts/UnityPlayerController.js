@@ -1,7 +1,5 @@
 ﻿#pragma strict
 
-var joystickPrefab : GameObject;
-
 function Start() {
 
 }
@@ -11,6 +9,4 @@ function Update () {
 	
 	if(Input.GetButton("Exit"))
 		Application.Quit();
-
-
 }

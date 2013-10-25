@@ -1,18 +1,13 @@
 fileFormatVersion: 2
-guid: 1c3ba4a7b641dbf4ea22e6063e0d811c
+guid: 11ba1217734e54593a4b72e557f625eb
 ModelImporter:
   serializedVersion: 15
   fileIDToRecycleName:
     100000: //RootNode
-    100002: W__rfel
     400000: //RootNode
-    400002: W__rfel
-    2300000: W__rfel
-    2300002: //RootNode
-    3300000: W__rfel
-    3300002: //RootNode
-    4300000: W__rfel
-    4300002: Subdivision_Surface_1
+    2300000: //RootNode
+    3300000: //RootNode
+    4300000: Stein
     9500000: //RootNode
   materials:
     importMaterials: 1

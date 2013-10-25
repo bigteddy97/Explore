@@ -1,40 +1,38 @@
 fileFormatVersion: 2
-guid: 894cfae4d3e8a004bbd39da64d575fe8
+guid: e3bebd3f5eac54ba79ce69e34a845b2b
 ModelImporter:
   serializedVersion: 15
   fileIDToRecycleName:
-    100000: Kapsel
-    100002: //RootNode
-    100004: Kapsel_MeshPart0
-    100006: Kapsel_MeshPart1
-    100008: Kapsel_2
-    100010: Polygonreduktion
-    400000: Kapsel
-    400002: //RootNode
-    400004: Kapsel_MeshPart0
-    400006: Kapsel_MeshPart1
-    400008: Kapsel_2
-    400010: Polygonreduktion
-    2300000: Kapsel
-    2300002: Kapsel_MeshPart0
-    2300004: Kapsel_MeshPart1
-    2300006: Kapsel_2
-    2300008: //RootNode
-    3300000: Kapsel
-    3300002: Kapsel_MeshPart0
-    3300004: Kapsel_MeshPart1
-    3300006: Kapsel_2
-    3300008: //RootNode
-    4300000: Kapsel
-    4300002: Kapsel_MeshPart0
-    4300004: Kapsel_MeshPart1
-    4300006: Kapsel_2
-    4300008: Stein
-    6400000: Kapsel_2
-    6400002: //RootNode
+    100000: Kugel
+    100002: Kugel_1
+    100004: Kugel_2
+    100006: Kugel_3
+    100008: //RootNode
+    100010: W__rfel
+    400000: Kugel
+    400002: Kugel_1
+    400004: Kugel_2
+    400006: Kugel_3
+    400008: //RootNode
+    400010: W__rfel
+    2300000: Kugel
+    2300002: Kugel_1
+    2300004: Kugel_2
+    2300006: Kugel_3
+    2300008: W__rfel
+    3300000: Kugel
+    3300002: Kugel_1
+    3300004: Kugel_2
+    3300006: Kugel_3
+    3300008: W__rfel
+    4300000: Kugel
+    4300002: Kugel_3
+    4300004: Kugel_1
+    4300006: W__rfel
+    4300008: Kugel_2
     9500000: //RootNode
   materials:
-    importMaterials: 0
+    importMaterials: 1
     materialName: 0
     materialSearch: 1
   animations:
@@ -51,12 +49,12 @@ ModelImporter:
     lODScreenPercentages: []
     globalScale: .00999999978
     meshCompression: 0
-    addColliders: 1
+    addColliders: 0
     importBlendShapes: 1
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
-    optimizeMeshForGPU: 0
+    optimizeMeshForGPU: 1
     weldVertices: 1
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001

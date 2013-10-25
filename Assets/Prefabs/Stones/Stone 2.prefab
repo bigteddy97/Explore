@@ -10,7 +10,6 @@ GameObject:
   - 4: {fileID: 400000}
   - 33: {fileID: 3300000}
   - 23: {fileID: 2300000}
-  - 95: {fileID: 9500000}
   - 54: {fileID: 5400000}
   - 64: {fileID: 6400000}
   - 82: {fileID: 8200000}
@@ -28,9 +27,9 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100000}
-  m_LocalRotation: {x: .603830576, y: 0, z: -0, w: .797112763}
-  m_LocalPosition: {x: 554.513, y: 55.7814102, z: 762.793457}
-  m_LocalScale: {x: .5, y: .5, z: .5}
+  m_LocalRotation: {x: .400110394, y: .597002029, z: -.452242523, w: .528182805}
+  m_LocalPosition: {x: -47.4591064, y: -76.549469, z: -78.742981}
+  m_LocalScale: {x: .508701205, y: .508701146, z: .508701146}
   m_Children: []
   m_Father: {fileID: 0}
 --- !u!23 &2300000
@@ -57,7 +56,7 @@ MeshFilter:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100000}
-  m_Mesh: {fileID: 4300002, guid: 1c3ba4a7b641dbf4ea22e6063e0d811c, type: 3}
+  m_Mesh: {fileID: 4300000, guid: e5e0e7c7bd35c43efad9b9f1cf6566ef, type: 3}
 --- !u!54 &5400000
 Rigidbody:
   m_ObjectHideFlags: 1
@@ -85,7 +84,7 @@ MeshCollider:
   serializedVersion: 2
   m_SmoothSphereCollisions: 0
   m_Convex: 1
-  m_Mesh: {fileID: 4300002, guid: 1c3ba4a7b641dbf4ea22e6063e0d811c, type: 3}
+  m_Mesh: {fileID: 4300000, guid: e5e0e7c7bd35c43efad9b9f1cf6566ef, type: 3}
 --- !u!82 &8200000
 AudioSource:
   m_ObjectHideFlags: 1
@@ -144,18 +143,6 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
---- !u!95 &9500000
-Animator:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100000}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: 1c3ba4a7b641dbf4ea22e6063e0d811c, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 1
-  m_ApplyRootMotion: 1
-  m_AnimatePhysics: 0
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 1

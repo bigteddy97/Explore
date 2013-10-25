@@ -1,35 +1,13 @@
 fileFormatVersion: 2
-guid: 2060c0c8840676b4e98559dec31b92f5
+guid: 6d95cb87791e34d35897b6e6d7fa8775
 ModelImporter:
   serializedVersion: 15
   fileIDToRecycleName:
-    100000: Kugel
-    100002: Kugel_1
-    100004: Kugel_2
-    100006: Kugel_3
-    100008: //RootNode
-    100010: W__rfel
-    400000: Kugel
-    400002: Kugel_1
-    400004: Kugel_2
-    400006: Kugel_3
-    400008: //RootNode
-    400010: W__rfel
-    2300000: Kugel
-    2300002: Kugel_1
-    2300004: Kugel_2
-    2300006: Kugel_3
-    2300008: W__rfel
-    3300000: Kugel
-    3300002: Kugel_1
-    3300004: Kugel_2
-    3300006: Kugel_3
-    3300008: W__rfel
-    4300000: Kugel
-    4300002: Kugel_3
-    4300004: Kugel_1
-    4300006: W__rfel
-    4300008: Kugel_2
+    100000: //RootNode
+    400000: //RootNode
+    2300000: //RootNode
+    3300000: //RootNode
+    4300000: W__rfel_10
     9500000: //RootNode
   materials:
     importMaterials: 1
@@ -63,7 +41,7 @@ ModelImporter:
   tangentSpace:
     normalSmoothAngle: 60
     splitTangentsAcrossUV: 1
-    normalImportMode: 1
+    normalImportMode: 0
     tangentImportMode: 1
   importAnimation: 1
   copyAvatar: 0

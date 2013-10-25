@@ -80,16 +80,16 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100004}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 550, y: 40, z: 750}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: 0, y: .843391478, z: 0, w: .537299573}
+  m_LocalPosition: {x: -52.4678345, y: -81.5084305, z: -58.2404175}
+  m_LocalScale: {x: .548084259, y: .548084259, z: .548084259}
   m_Children:
   - {fileID: 400000}
   - {fileID: 400002}
   m_Father: {fileID: 0}
 --- !u!23 &2300000
 Renderer:
-  m_ObjectHideFlags: 13
+  m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100004}
@@ -107,14 +107,14 @@ Renderer:
   m_ScaleInLightmap: 1
 --- !u!33 &3300000
 MeshFilter:
-  m_ObjectHideFlags: 13
+  m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100004}
-  m_Mesh: {fileID: 4300008, guid: 894cfae4d3e8a004bbd39da64d575fe8, type: 3}
+  m_Mesh: {fileID: 4300000, guid: 11ba1217734e54593a4b72e557f625eb, type: 3}
 --- !u!54 &5400000
 Rigidbody:
-  m_ObjectHideFlags: 13
+  m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100004}
@@ -129,7 +129,7 @@ Rigidbody:
   m_CollisionDetection: 0
 --- !u!64 &6400000
 MeshCollider:
-  m_ObjectHideFlags: 13
+  m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100004}
@@ -139,10 +139,10 @@ MeshCollider:
   serializedVersion: 2
   m_SmoothSphereCollisions: 0
   m_Convex: 1
-  m_Mesh: {fileID: 4300008, guid: 894cfae4d3e8a004bbd39da64d575fe8, type: 3}
+  m_Mesh: {fileID: 4300000, guid: 11ba1217734e54593a4b72e557f625eb, type: 3}
 --- !u!82 &8200000
 AudioSource:
-  m_ObjectHideFlags: 13
+  m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100004}
@@ -212,7 +212,7 @@ Animator:
   m_AnimatePhysics: 0
 --- !u!114 &11400000
 MonoBehaviour:
-  m_ObjectHideFlags: 13
+  m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100004}

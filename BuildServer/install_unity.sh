@@ -17,7 +17,7 @@ hdiutil verify $dmg
 hdiutil mount -readonly -nobrowse -plist $dmg > $TMPFILE
 vol=`grep Volumes $TMPFILE  | sed -e 's/.*>\(.*\)<\/.*/\1/'`
 pkg=`ls -1 "$vol"/*.pkg`
-sudo installer -pkg "$pkg" -target /
+sudo installer -pkg "$pkg" -target / -verbose
 hdiutil unmount "$vol"
  
 if [[ ! -d "$unityhome" ]]; then

@@ -18,7 +18,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &400000
 Transform:
@@ -77,11 +77,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 100000}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 33a130d980891624e831ff33730194aa, type: 3}
+  m_Script: {fileID: 11500000, guid: 35928f57ce0810644bff3f19820615b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_DisablePixelLights: 1
-  m_TextureSize: 1024
+  m_DisablePixelLights: 0
+  m_TextureSize: 2048
   m_ClipPlaneOffset: .0700000003
   m_ReflectLayers:
     serializedVersion: 2

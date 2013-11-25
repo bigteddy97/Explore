@@ -9,6 +9,7 @@ Material:
   m_Name: Grass
   m_Shader: {fileID: 7, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: []
+  m_CustomRenderQueue: -1
   m_SavedProperties:
     serializedVersion: 2
     m_TexEnvs:
@@ -23,7 +24,11 @@ Material:
       data:
         first:
           name: _Cutoff
-        second: .25
+        second: .412499994
+      data:
+        first:
+          name: _SquashAmount
+        second: 1
       data:
         first:
           name: _BaseLight
@@ -31,15 +36,11 @@ Material:
       data:
         first:
           name: _AO
-        second: 10
+        second: 4.64285707
       data:
         first:
           name: _Occlusion
         second: 4.61538458
-      data:
-        first:
-          name: _SquashAmount
-        second: 1
     m_Colors:
       data:
         first:
